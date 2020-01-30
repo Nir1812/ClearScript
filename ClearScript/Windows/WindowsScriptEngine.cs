@@ -314,7 +314,7 @@ namespace Microsoft.ClearScript.Windows
                     continue;
                 }
 
-                if ((item != null) && item.GetType().IsCOMObject)
+                if (item != null) //&& item.GetType().IsCOMObject)
                 {
                     directAccessItem = item;
                     return true;

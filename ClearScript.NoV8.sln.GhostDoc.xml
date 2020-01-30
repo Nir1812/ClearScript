@@ -1,0 +1,62 @@
+<GhostDoc>
+<IgnoreFilePatterns>
+  <IgnoreFilePattern>*.min.js</IgnoreFilePattern>
+  <IgnoreFilePattern>jquery*.js</IgnoreFilePattern>
+</IgnoreFilePatterns>
+  <SpellChecker>
+    <IncludeExtensions>
+    </IncludeExtensions>
+    <IgnoreExtensions>
+    </IgnoreExtensions>
+    <IgnoreFiles>
+    </IgnoreFiles>
+  </SpellChecker>
+<HelpConfigurations selected="HelpFile">
+  <HelpConfiguration name="HelpFile">
+    <OutputPath>.\Help</OutputPath>
+    <CleanupOutputPath>true</CleanupOutputPath>
+    <HelpFileNamingMethod>MemberName</HelpFileNamingMethod>
+    <ImageFolderPath />
+    <HtmlFormats>
+      <HtmlHelp>true</HtmlHelp>
+      <MSHelpViewer>false</MSHelpViewer>
+      <MSHelp2>false</MSHelp2>
+      <Website>false</Website>
+      <VSIntelliSenseFile>false</VSIntelliSenseFile>
+    </HtmlFormats>
+    <IncludeScopes>
+      <Public>true</Public>
+      <Internal>false</Internal>
+      <Protected>false</Protected>
+      <Private>false</Private>
+      <Inherited>true</Inherited>
+      <InheritedFromReferences>true</InheritedFromReferences>
+      <EnableTags>false</EnableTags>
+      <TagList />
+    </IncludeScopes>
+    <SyntaxLanguages>
+      <CSharp>true</CSharp>
+      <VisualBasic>true</VisualBasic>
+      <CPlusPlus>true</CPlusPlus>
+    </SyntaxLanguages>
+    <ResolveCrefLinks>true</ResolveCrefLinks>
+    <HeaderText />
+    <FooterText />
+    <ConceptualContent>
+      <ContentLayout />
+      <MediaContent />
+    </ConceptualContent>
+    <SelectedProjects>
+      <SelectedProject>Odcanit.Platinum.Core.Shared</SelectedProject>
+      <SelectedProject>Odcanit.Platinum.Core.Connection</SelectedProject>
+      <SelectedProject>Odcanit.Platinum.Core.Scripts</SelectedProject>
+      <SelectedProject>Odcanit.Platinum.Core.Locales</SelectedProject>
+      <SelectedProject>Odcanit.Platinum.Core.Profiles</SelectedProject>
+      <SelectedProject>Odcanit.Platinum.Core.Users</SelectedProject>
+      <SelectedProject>Odcanit.Platinum.Core.Utils</SelectedProject>
+    </SelectedProjects>
+  </HelpConfiguration>
+</HelpConfigurations>
+<GeneralProperties>
+</GeneralProperties>
+</GhostDoc>
