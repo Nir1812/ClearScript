@@ -115,7 +115,7 @@ namespace Microsoft.ClearScript.Windows
                         }
 
                         var text = new string(document.Code.Skip(position).TakeWhile(ch => ch != '\n').ToArray());
-                        return MiscHelpers.FormatInvariant("    at ({0}:{1}:{2}) -> {3}", documentName, lineNumber, offsetInLine, text);
+                        return MiscHelpers.FormatInvariant("    at ({0}:{1}:{2}) -> {3}", documentName, lineNumber + 1, offsetInLine, text);
                     }
                 }
 
